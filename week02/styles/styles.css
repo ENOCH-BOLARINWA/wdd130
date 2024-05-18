@@ -62,6 +62,13 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 150px
+    height auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
 aside{
     width: 20em
     margin-1rem;
@@ -83,10 +90,7 @@ aside img{
     height: auto;
 }
 
-main img {
-    width: 150px
-    height auto;
-}
+
 
 .main img{
     float: right;
