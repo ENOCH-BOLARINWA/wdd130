@@ -78,6 +78,7 @@ aside img{
 }
 
 main img {
+    float: right;
     width: 150px
     height auto;
 }
