@@ -4,6 +4,11 @@
     box-sizing: border-box;
   } 
 
+  body{
+    font-size: 16px;
+    font-family: Roboto, Arial, sans-serif;
+  }
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -32,6 +37,10 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
+}
+
+p{
+    margin: 1rem;
 }
 
 aside{
@@ -64,5 +73,9 @@ footer{
     background-color: #eee; /* Change to your desired color */
     color: #000; /* Change to your desired color */
     border: 1px solid rgba(0,0,0,.1); /* Optional, for visual separation */
+  }
+
+  .indent {
+    padding-left: 1rem;
   }
        
