@@ -5,15 +5,14 @@
   } 
 
 nav {
-    background-color: var(--nav-bg-color);
+    background-color: steelblue;
     padding: 10px;
 }
 
 nav a {
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
+    color: white;
+    padding: 10px;
+    display: block;
 }
 
 h1 {
@@ -31,6 +30,8 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside{
@@ -45,49 +46,23 @@ aside img{
 }
 
 aside h2 {
-    position: absolute;
-    top: 47px;
+    position:absolute;
+    top: 65px;
     left: 150px;
 }
 
-
-
-
-.main img{
-    float: right;
-    margin-left: 1rem;
-}
-
-p {padding:0;}
-
 footer{
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
 .box {
     margin: 1rem;
     padding: 1rem;
-    background-color: #ddd; /* Change to your desired color */
+    background-color: #eee; /* Change to your desired color */
     color: #000; /* Change to your desired color */
     border: 1px solid rgba(0,0,0,.1); /* Optional, for visual separation */
   }
-  aside{
-    width:20em;
-    text-align: center;
-  }
-  aside {
-    position: relative;
-  }
-  
-  aside h2 {
-    position: absolute;
-    top: 10px; /* Adjust as necessary */
-    left: 10px; /* Adjust as necessary */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional for better readability */
-    color: #fff; /* Ensure text is readable */
-    padding: 0.5rem; /* Optional for spacing */
-  }
-  
-  
+       
