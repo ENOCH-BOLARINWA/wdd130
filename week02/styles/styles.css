@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #396e94;
-    --secondary-color: #e7c24f;
-    --accent1-color: #a43312;
-    --accent2-color: #381d2a;
-    --heading-font: 'Lora', serif;
-    --paragraph-font: 'Open Sans', sans-serif;
-    --nav-bg-color: var(--primary-color);
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: var(--secondary-color);
-    --nav-hover-bg-color: var(--accent1-color);
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --additional-accent-color: #f1c40f;
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    --nav-bg-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #3498db;
+    --nav-hover-bg-color: #444;
 }
 
 body {
@@ -19,32 +18,17 @@ body {
     max-width: 960px;
     padding: 20px;
     margin: 0 auto;
-}
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-header {
-    padding: 20px;
-    background-color: var(--primary-color);
-    color: #ffffff;
-}
-
-header h1 {
-    margin: 0;
-    font-family: var(--heading-font);
-}
-
-header div {
-    font-family: var(--paragraph-font);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 p {
@@ -59,14 +43,15 @@ nav {
 nav a {
     color: var(--nav-link-color);
     text-decoration: none;
-    margin-right: 15px;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-bg-color);
-    padding: 5px;
 }
+
 main {
     max-width: 840px;
 }
