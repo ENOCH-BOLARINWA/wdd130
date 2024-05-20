@@ -1,51 +1,55 @@
 @import url('https://fonts.google.com/specimen/PT+Sans');
 body {
-    font-family: var(--paragraph-font);
+    font-family: serif;
     max-width: 960px;
     padding: 20px;
 }
-:root{
-    --primary-color: #xxxxxx;
-    --secondary-color: #xxxxxx;
-    --accent1-color: #xxxxxx;
-    --accent2-color: #xxxxxx;
 
-    --heading-font: '____', serif;
-    --paragraph-font: '____', serif;
-    --nav-background-color: #xxxxxx;
-    --nav-link-color: #xxxxxx;
-    --nav-hover-link-color: #xxxxxx;
-    --nav-hover-background-color: #xxxxxx;
+.root{
+    --primary-color: #396e94
+    --secondary-color: #e7c24f;
+    --accent1-color: ##a43312;
+    --accent2-color: ##381d2a;
+
+    --heading-font: serif;
+    --paragraph-font: serif;
+    --nav-background-color: #765e76;
+    --nav-link-color: #245c24;
+    --nav-hover-link-color: #567e65;
+    --nav-hover-background-color: #888c88;
 }
+
 body{
-    f________: var(--paragraph-font);
+    f________: Georgia;
     m________: _______;
     p________: ________;
 }
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--heading-font);
 
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
 }
+
 header {
     padding: 200px;
-    background-color: var(--accent1-color);
+    background-color: rgb(255, 255, 128);
 }
 p {
     padding: 25px 
 }
 nav {
-    background-color: var(--nav-background-color); font-size: 1.2rem;  display: flex
+    background-color:  #74992e; font-size: 1.2rem;  display: flex
 }
     nav a {
         display: block;
-        color: var(--nav-link-color);
+        color:  #00a400;
         text-decoration: none;
         padding: 1rem;
     }
+
     nav a:link, nav a:visited {
-        color: var(--nav-link-color);
+        color: hsl(30deg 82% 43%);
     }
     nav a:hover {
-        color: var(--nav-hover-link-color);
-        background-color: var(--nav-hover-background-color);
+        color:  #00a400;
+        background-color:  #74992e;
     }
