@@ -1,22 +1,23 @@
-@import url('https://fonts.google.com/specimen/PT+Sans');
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 body {
     font-family: serif;
     max-width: 960px;
     padding: 20px;
 }
 
-.root{
+:root {
     --primary-color: #396e94
     --secondary-color: #e7c24f;
-    --accent1-color: ##a43312;
-    --accent2-color: ##381d2a;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
 
     --heading-font: serif;
     --paragraph-font: serif;
+
     --nav-background-color: #765e76;
     --nav-link-color: #245c24;
     --nav-hover-link-color: #567e65;
-    --nav-hover-background-color: #888c88;
+    --nav-hover-background-color: #854c85;
 }
 
 body{
@@ -26,7 +27,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: Georgia, serif;
+    font-family: serif;
 }
 
 header {
