@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 body {
-    font-family: serif;
+    font-family: var(serif);
     max-width: 960px;
     padding: 20px;
 }
