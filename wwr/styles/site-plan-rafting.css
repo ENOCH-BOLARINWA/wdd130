@@ -41,19 +41,23 @@ p {
 }
 
 nav {
-    background-color:  #74992e; font-size: 1.2rem;  display: flex
+    background-color: var(--#765e76); 
+    font-size: 1.2rem;  
+    display: flex
 }
+
     nav a {
         display: block;
-        color:  #00a400;
+        color:  var(--#567e65);
         text-decoration: none;
         padding: 1rem;
     }
 
     nav a:link, nav a:visited {
-        color: hsl(30deg 82% 43%);
+        color: var(--#567e65);
     }
+
     nav a:hover {
-        color:  #00a400;
-        background-color:  #74992e;
+        color: var(--#567e65);
+        background-color: var(--#854c85);
     }
