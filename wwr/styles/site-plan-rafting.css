@@ -21,22 +21,25 @@ body {
 }
 
 body{
-    f: Georgia;
-    m: serif;
-    p: sans;
+    font-family: var(serif);
+    max-width: serif;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: serif;
+    font-family: var(--serif);
+    color: var(---#396e94);
 }
 
 header {
     padding: 200px;
-    background-color: rgb(255, 255, 128);
+    background-color: var(--#a43312);
 }
+
 p {
     padding: 25px 
 }
+
 nav {
     background-color:  #74992e; font-size: 1.2rem;  display: flex
 }
