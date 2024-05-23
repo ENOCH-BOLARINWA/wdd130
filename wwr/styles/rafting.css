@@ -57,9 +57,37 @@ p {
     float: right;
 }
 
-.hero img{
-    display: block;
-    width: 100%;
-    height: auto;
+.hero {
     position: relative;
-}
+    width: 100%; /* Relative width */
+  }
+  
+  .hero img {
+    display: block; /* Make the image a block to fill width */
+    width: 100%;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Set background color with opacity */
+    padding: 20px;
+  }
+  
+  .hero article p {
+    margin-bottom: 10px;
+  }
+  
+  .hero article img {
+    float: right;
+    margin-left: 10px;
+  }
+
