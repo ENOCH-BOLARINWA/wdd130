@@ -19,16 +19,36 @@ body {
     --nav-hover-bg-color: #444;
 }
 
+/*General style*/
 body {
     font-family: var(--roboto);
     max-width: 100px;
-    padding: 10px;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* Limiting the width of the page */
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 h1 {
-    position:absolute
+    position:absolute;
+    color: var(--#3498db);
+    font-family: var(--Merriweather);
 }
+
+/* Paragraphs */
+p {
+    color: var(--#3498db);
+  }
+
+  /* Social media links */
+.social-media-links {
+    text-decoration: none; /* Remove underlines */
+  }
+  
 .article {
     position: absolute;
 }
