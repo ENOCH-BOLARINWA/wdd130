@@ -55,7 +55,7 @@ aside img{
 
 aside h2 {
     position:absolute;
-    top: 65px;
+    top: 47px;
     left: 150px;
 }
 
@@ -69,7 +69,7 @@ footer{
 .box {
     margin: 1rem;
     padding: 1rem;
-    background-color: #eee; /* Change to your desired color */
+    background-color: #ddd; /* Change to your desired color */
     color: #000; /* Change to your desired color */
     border: 1px solid rgba(0,0,0,.1); /* Optional, for visual separation */
   }
