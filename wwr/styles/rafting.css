@@ -71,6 +71,7 @@ p {
   .hero img {
     display: block; /* Make the image a block to fill width */
     width: 100%;
+    height: auto;
   }
   
   .hero h1 {
@@ -92,9 +93,8 @@ p {
     margin-bottom: 10px;
   }
   
-  .hero article img{ 
+  .hero article img {
     float: right;
     margin-left: 10px;
 }
     
-  
