@@ -64,14 +64,15 @@ p {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
     width: 100%; /* Relative width */
   }
   
   .hero img {
-    display: inline; /* Make the image a block to fill width */
-    width: 150%;
+    display: block; /* Make the image a block to fill width */
+    width: 100%;
     height: auto;
+    position:absolute
   }
   
   .hero h1 {
@@ -79,7 +80,11 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
   
   .hero article {
     position: absolute;
@@ -94,7 +99,7 @@ p {
   }
   
   .hero article img {
-    float: right;
+    float: centre;
     margin-left: 10px;
 }
     
