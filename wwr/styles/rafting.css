@@ -69,8 +69,8 @@ p {
   }
   
   .hero img {
-    display: block; /* Make the image a block to fill width */
-    width: 100%;
+    display: inline; /* Make the image a block to fill width */
+    width: 150%;
     height: auto;
   }
   
