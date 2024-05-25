@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-<style>
+
   .hero {
     position: relative;
     width: 100%;
@@ -35,7 +35,7 @@ body {
     max-width: 600px; /* Adjust as needed */
     text-align: center;
   }
-</style>
+
 
 :root {
     --primary-color: #396e94
