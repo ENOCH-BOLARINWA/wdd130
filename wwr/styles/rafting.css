@@ -31,9 +31,9 @@ body {
   }
 
   article {
-    width: 80%;
-    max-width: 600px; /* Adjust as needed */
-    text-align: center;
+    width: 10%;
+    max-width: 100px; /* Adjust as needed */
+    text-align: justify;
   }
 
 
@@ -58,12 +58,6 @@ body {
     max-width: 100px;
     padding: 0px;
     margin: 0;
-}
-
-.container {
-    max-width: 1200px; /* Limiting the width of the page */
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 h1, h2 {
