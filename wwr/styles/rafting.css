@@ -19,21 +19,21 @@ body {
 
   .hero h1, .hero article {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     transform: translate(-50%, -50%);
   }
 
   /* Additional styling for clarity */
   h1 {
     font-size: 2.5em;
-    text-align: center;
+    text-align: justify;
   }
 
   article {
-    width: 10%;
-    max-width: 100px; /* Adjust as needed */
-    text-align: justify;
+    width: 80%;
+    max-width: 600px; /* Adjust as needed */
+    text-align: center;
   }
 
 
