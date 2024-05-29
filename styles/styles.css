@@ -59,10 +59,9 @@ aside h2 {
     left: 150px;
 }
 
-footer{
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
+header, footer {
+    max-width: 840px;
+    margin: auto;
 }
 
 /* Class Selectors */
