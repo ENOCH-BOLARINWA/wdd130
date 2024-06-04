@@ -23,7 +23,7 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> Contact | Elharaby Rafting Company </title>
+    <title> Contact | Elharaby Rafting Company <title>
         <meta name="description" content="Contact Us, BYUI-Idaho WDD 130 contact us page">
         <meta name="author"  content="Enoch Bolarinwa">
         <link href=styles/rafting.css rel=stylesheet>
@@ -99,7 +99,6 @@
             <header>
                 <h1>Elharaby Rafting Company</h1>
                 <p>Your tagline here</p>
-            </header>
             <img src="images/raftlogo.png" alt="company logo">
             <nav>
                 <a href="index.html">Home</a>
@@ -115,24 +114,22 @@
                     <p>Tourism is the best way of having a great holiday away from work. The objective of my company is to give you a bespoke adventure tailored towards your budget but filled with fun; that is why our motto is: "Your happiness is our pride".</p>
                 </article>
             </div>
-
-            <h1>Contact Us</h1>
-        <div class="contact-info">
-            <h2>Company Information</h2>
-            <p><strong>Address:</strong> 100 River Road, Adventure Town, CO 12345</p>
-            <p><strong>Phone Number:</strong> +1 (800) 123-7865</p>
-            <p><strong>Email:</strong> info@raftingcompany.com</p>
-            <h2>Our Location</h2>
-            <div class="map">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509842!2d-122.41941548468194!3d37.77492927975979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d7d2c043b%3A0x4a5c8c58d194dc3d!2s123%20River%20Rd%2C%20San%20Francisco%2C%20CA%2094114%2C%20USA!5e0!3m2!1sen!2sus!4v1627585302041!5m2!1sen!2sus" 
-                    width="400" 
-                    height="250" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
+            <!-- Employee Profiles Section -->
+        <section id="employee-profiles">
+            <h2>Our Team</h2>
+            <div class="profile">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p>Gilead - Director</p>
             </div>
+            <div class="profile">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p>Gideon - Supervisor</p>
+            </div>
+            <div class="profile">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p>John - Manager</p>
+            </div>
+        </section>
     <form>
         <h2>Contact Us</h2>
         <label for="name">Name:</label>
@@ -153,10 +150,19 @@
         <textarea id="message" name="message" rows="4" required></textarea>
     
         <input type="checkbox" id="newsletter" name="newsletter">
-        <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
     
         <button type="submit">Submit</button>
     </form>
+    <section id="company-info">
+        <h2>Company Information</h2>
+        <p><strong>Address:</strong> 123 Rafting Lane, River City, RC 12345</p>
+        <p><strong>Phone:</strong> +1 234 567 8901</p>
+        <p><strong>Email:</strong> info@raftingcompany.com</p>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d126856.55913875788!2d3.367063310868518!3d6.48777477154078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s15%20Dele%20Adeyemi%20St!5e0!3m2!1sen!2sng!4v1717503309496!5m2!1sen!2sng" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
         </main>
         <footer>
             <p> &copy; 2024 ❤ Elharaby Rafting Company ❤ Enoch Bolarinwa </p>
