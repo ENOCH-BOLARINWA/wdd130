@@ -17,13 +17,14 @@ body{
 header {
     margin:0 auto;
     width: 650px;
+    text-align: center;
 }
 
 h1 {
     margin: 1rem;
     font-size: 1.5em;
     color: navy;
-    text-align: center;
+    text-align: end;
 }
 
 form {
@@ -35,6 +36,8 @@ form {
     background-color: #eee;
     display: grid;
 }
+
+
 
 fieldset {
     display: grid;
