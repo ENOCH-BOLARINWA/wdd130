@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <style>
+        .hero {
+        position: relative;
+        width: 100%;
+        height: 400px; /* Adjust height as needed */
+        background-image: "images/raftlogo2.jpg";
+        background-size: cover;
+        background-position: justify;
+        color: navy; /* Text color on top of the image */
+      }
+      .hero h1 {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+        transform: translate(-50%, -50%);
+      }
+
+      .hero article {
+        position: absolute;
+        top: 10%;
+        right: 50%;
+         }
+
+      .hero img  {
+        position: absolute;
+        top: 10%; }
+    
+      h1 {
+        font-size: 2.5em;
+        text-align: justify;
+      }
+
+      article {
+        width: 50%;
+        max-width: 500px; /* Adjust as needed */
+        text-align:justify;
+      }
+    
+    </style>
+    
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Enoch Bolarinwa | WDD 130</title>
+        <meta name="description" content="Enoch Bolarinwa, BYUI-Idaho WDD 130 course homepage">
+        <meta name="author"  content="Enoch Bolarinwa">
+        <link href=styles/rafting.css rel=stylesheet>
+        </head>
+        <body>
+            <header>
+                    
+                <img src="images/raftlogo.png" alt="company logo">
+                <h1>Rafting Company</h1>
+                <p>Your Satisfaction Is Our Priority</p>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="trips.html">Trips</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </header>
+            <main>
+                <div class="hero">
+                    <article>
+                        <img src="images/happyclients.jpg">
+                        <p>Tourism is the best way of having a great holiday away from work. The objective of my company is to give you a bespoke adventure tailored towards your budget but filled with fun; that is why our motto is: "Your happiness is our pride".</p>
+                    </article>
+                </div>
+                <!-- Employee Profiles Section -->
+            <section id="employee-profiles">
+                <h2>Our Team</h2>
+                <div class="profile">
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <p>Gilead - Director</p>
+                </div>
+                <div class="profile">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <p>Gideon - Supervisor</p>
+                </div>
+                <div class="profile">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <p>John - Manager</p>
+                </div>
+            </section>
+            <form>
+                <h2>Contact Us</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="purpose">Purpose of the message:</label>
+                <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry" required>
+                <label for="general-inquiry">General Inquiry</label><br>
+                <input type="radio" id="reservation-question" name="purpose" value="Reservation Question">
+                <label for="reservation-question">Reservation Question</label><br>
+                <input type="radio" id="website-suggestion" name="purpose" value="Website Suggestion">
+                <label for="website-suggestion">Website Suggestion</label>
+            
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+            
+                <button type="submit">Submit</button>
+            </form>
+            <section id="company-info">
+                <h2>Company Information</h2>
+                <p><strong>Address:</strong> 123 Rafting Lane, River City, RC 12345</p>
+                <p><strong>Phone:</strong> +1 234 567 8901</p>
+                <p><strong>Email:</strong> info@raftingcompany.com</p>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4313781482474!2d3.537465773729375!3d6.466910023820981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf6d88fc89bbb%3A0xe598d1a3e4252b12!2sRd%2026%2C%20Victoria%20garden%20City%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1717505914111!5m2!1sen!2sng" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+        </main>
+        <footer>
+                <p>&copy; 2024 Elharaby Rafting Company. All rights reserved.</p>
+                <p>Address: 123 Rafting Lane, River City, RC 12345 | Phone: +1 234 567 8901 | Email: info@raftingcompany.com</p>
+                <p><a href="images/contact_us_wireframe.png" target="_blank">Contact Us Wireframe</a></p>
+          
+            <nav class="sociallinks">
+             <a href="https://facebook.com">Facebook</a>
+                    <img src="images/facebook.png" alt="facebook">
+                <a href="http://instagramlogo.com">Instagram</a>
+                    <img src="images/instagramlogo.jpg" alt="instagram">
+                <a href="https://twitter.com">Twitter</a>
+                    <img src="images/twitterold.png" alt="twitter">
+                
+            </nav>
+
+        </footer>
+    </body>
+    </html>
